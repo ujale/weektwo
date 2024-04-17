@@ -18,10 +18,11 @@
     "igOption":"div#scrollableDiv > div:nth-of-type(3)",
     "fbOption":"div#scrollableDiv > div:nth-of-type(4)",
     "xOption":"div#scrollableDiv > div:nth-of-type(5)",
-    "passwordField": "input#password"
+    "passwordField": "input#password",
+    "emailField": "input#email"
   },
   "otpPage":{
-    "submitBtn":"button[type='submit']",
+    "inputBox":"input",
     "otpMessage":".onboarding_text__center__FzKte"
   }
 }

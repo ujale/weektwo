@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './custom-commands/common-actions'
 import 'cypress-fill-command'
 import 'cypress-mailslurp'
 // Alternatively you can use CommonJS syntax:
@@ -23,5 +24,5 @@ beforeEach(()=>{
     cy.on('uncaught:exception', ()=>{
         return false
     })
-    //cy.visit('/')
+    cy.visit('/')
 })

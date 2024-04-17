@@ -8,6 +8,7 @@ module.exports = defineConfig({
     defaultCommandTimeout: 10000,
     chromeWebSecurity: true,
     watchForFileChanges: false,
+    experimentalRunAllSpecs: true,
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
